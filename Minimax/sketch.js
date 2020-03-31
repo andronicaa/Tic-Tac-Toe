@@ -22,10 +22,6 @@ function setup() {
     
 }
 
-function equals3(a, b, c) {
-    return a == b && b == c && a != '';
-  }
-
 function verif_castigator() {
     let castigator = null,  gol = 0;
 
