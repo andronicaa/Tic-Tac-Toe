@@ -99,20 +99,7 @@ function draw() {
           }
         }
       }
-        let result = verif_castigator();
-        if (result != null) {
-            noLoop();
-            let resultP = createP('');
-            resultP.style('font-size', '32pt');
-            if (result == 'remiza') {
-                result.html("Remiza");
-
-            }
-            else
-            {
-                resultP.html(`${result} castiga!`);
-            }
-        }
+       
 
     }
 
